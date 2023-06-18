@@ -29,6 +29,7 @@ $(document).ready(function(){
     $('#cancel-button').click(function(e){
         var listaul = $('#to-do-list')
         listaul.empty() //comando que zera todos os child <li> da <ul>
+        arrayTarefas = []
         $('#nome-tarefa').val('')
         $('#nome-tarefa').focus()
     })
