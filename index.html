@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de tarefas</h1>
+        <div id="cadastrar-tarefas">
+            <input type="text" name="nome" id="nome-tarefa" required placeholder="Nome da tarefa" autocomplete="off">
+            <button type="submit" id="cad-button">Cadastrar</button>
+            <button type="reset" id="cancel-button">Limpar</button>
+        </div>
+        <ul id="to-do-list">
+        </ul>
+    </div>
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
