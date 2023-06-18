@@ -17,7 +17,7 @@ $(document).ready(function(){
         }
         $('#nome-tarefa').val('') //limpa o input de tarefa
         $(item).click(function(){
-            if (item.hasClass('complete-tarefa')){
+            if (item.hasClass('complete-tarefa')){ //pode ser substituido por (item.toggleClass('complete-tarefa') para nao ter a necessidade de utilizar if
                 $(item).removeClass('complete-tarefa')
             } else {
                 $(item).addClass('complete-tarefa')
